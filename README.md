@@ -1,0 +1,1 @@
+This repository contains the documentation for various projects and tasks I've completed. It includes technical configurations, reports, step-by-step guides, and other resources aimed at showcasing my learning journey and experience in systems administration, cybersecurity, and other IT-related topics.
