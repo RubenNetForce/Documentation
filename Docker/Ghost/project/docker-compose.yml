@@ -7,24 +7,24 @@ services:
       - 8080:2368
     environment:
       database__client: mysql
-      database__connection__host: db
-      database__connection__user: root
-      database__connection__password: example
-      database__connection__database: ghost
+      database__connection__host:
+      database__connection__user:
+      database__connection__password:
+      database__connection__database:
     volumes:
       - ghostdata:/var/lib/ghost/content
     networks:
-      - mynetwork
+      
 
   db:
     image: mysql:5.7
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: example
+      MYSQL_ROOT_PASSWORD:
     volumes:
       - dbdata:/var/lib/mysql
     networks:
-      - mynetwork
+      
 
   backup1:
     image: ubuntu:latest
